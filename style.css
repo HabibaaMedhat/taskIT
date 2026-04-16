@@ -79,6 +79,9 @@ p{
 }
 h3{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
 
 table{
@@ -188,7 +191,6 @@ footer{
     }
     h3{
         text-align: center;
-        margin-left: 5%;
     }
     table{
         font-size: 80%;
