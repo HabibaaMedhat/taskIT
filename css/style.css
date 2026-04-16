@@ -1,5 +1,5 @@
 body{
-    background-image: url(photos/1776100266867.jpg);
+    background-image: url(../photos/1776100266867.jpg);
     background-size: cover;
     width: 1500px;
     height: 600px;
@@ -12,6 +12,7 @@ body{
     left: 0%;
     text-transform: capitalize;
 }
+
 a{
     text-decoration: none;
     color: rgb(198 167 132);
@@ -36,9 +37,9 @@ nav{
 }
 
 
-
 a:hover{
     color: rgb(151, 10, 10);
+    transition: transform 1.2s;
 }
 
 main{
@@ -55,6 +56,8 @@ main{
         align-items: center;
     background-color:  rgba(198, 167, 132, 0.441);
 }
+
+
 section{
     display: flex;
     justify-content: center;
@@ -62,16 +65,25 @@ section{
     flex-direction: column;
     align-items: center;
 }
+
+
 span{
     background-color: black;
     font-size: 50%;
     padding: 1%;
     border-radius: 15px;
 }
+span:hover{
+    transform: scale(1.2);
+}
+
+
 div{
     display: flex;
     justify-content: center;
 }
+
+
 .home{
     display: flex;
     flex-direction: column;
@@ -80,10 +92,14 @@ div{
     justify-content: center;
     justify-items: center;
 }
+
+
 p{
     font-size: 90%;
     text-align: center;
 }
+
+
 h3{
     text-align: center;
     display: flex;
@@ -126,6 +142,8 @@ button{
 button:hover{
     color: rgb(198 167 132);
 }
+
+
 select{
     width: 21%;
     text-align: center;
@@ -167,7 +185,7 @@ footer{
     body{
         width: 95%;
         height: 600px;
-        background-image: url(photos/1776201896263.jpg);
+        background-image: url(../photos/1776201896263.jpg);
         background-size: cover;
         color: rgb(219, 185, 148);
     }
