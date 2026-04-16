@@ -71,7 +71,7 @@ div{
     align-items: center;
 }
 p{
-    font-size: 80%;
+    font-size: 90%;
 }
 h3{
     text-align: center;
@@ -158,12 +158,12 @@ footer{
         color: rgb(219, 185, 148);
     }
     nav{
-    width: 380px;
+    width: 370px;
     height: 50px;
     padding-top: 10px;
     gap: 2.4%;}
     a{
-    font-size: 98%;
+    font-size: 95%;
     padding: 3px;}
     main{
         width: 80%;
@@ -181,6 +181,9 @@ footer{
     }
     p{
         font-size: 75%;
+    }
+    h3{
+        text-align: center;
     }
     table{
         font-size: 80%;
