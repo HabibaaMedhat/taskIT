@@ -29,6 +29,7 @@ nav{
     height: 38px;
     display: flex;
     justify-content: center;
+    justify-items: center;
     gap: 5%;
     margin: 0%;
     right: 0%;
@@ -43,6 +44,7 @@ a:hover{
 main{
     width: 900px;
     height: 600px;
+    padding: 4px;
     display: flex;
     border-radius: 10px;
     justify-content: center;
@@ -59,6 +61,10 @@ span{
     padding: 1%;
     border-radius: 15px;
 }
+div{
+    display: flex;
+    justify-content: center;
+}
 .home{
     display: flex;
     flex-direction: column;
@@ -66,6 +72,9 @@ span{
 }
 p{
     font-size: 80%;
+}
+h3{
+    text-align: center;
 }
 
 table{
@@ -104,11 +113,13 @@ button:hover{
     color: rgb(198 167 132);
 }
 select{
-    width: 20%;
+    width: 21%;
     text-align: center;
+    margin-left: 17px;
     background-color: rgba(198, 167, 132, 0.232);
+    display: inline;
     option{
-        background-color: rgba(198, 167, 132, 0.232);
+    background-color: rgba(198, 167, 132, 0.232);
     }
 }
 
@@ -116,13 +127,13 @@ select{
 
 textarea {
     width: 210px;
-    height: 100px;
+    height: 80px;
     margin-top: 16px;
     border: 1px solid rgba(198, 167, 132, 0.441);
     border-radius: 4px;
     padding: 10px;
     background-color: rgba(198, 167, 132, 0.232);
-    color: rgb(198 167 132);
+    color: rgb(225, 206, 183);
 }
 
 
@@ -140,18 +151,19 @@ footer{
 
 @media (max-width:560px){
     body{
-        width: 100%;
+        width: 95%;
+        height: 600px;
         background-image: url(photos/1776201896263.jpg);
         background-size: cover;
         color: rgb(219, 185, 148);
     }
     nav{
-    width: 400px;
+    width: 380px;
     height: 50px;
     padding-top: 10px;
-    gap: 2.6%;}
+    gap: 2.4%;}
     a{
-    font-size: 100%;
+    font-size: 98%;
     padding: 3px;}
     main{
         width: 80%;
@@ -160,7 +172,7 @@ footer{
             border-radius: 8px;
     }
     span{
-    font-size: 70%;
+    font-size: 80%;
     padding: 0.4%;
     border-radius: 10px;
     }
@@ -168,7 +180,7 @@ footer{
     font-size: 80%;
     }
     p{
-        font-size: 55%;
+        font-size: 75%;
     }
     table{
         font-size: 80%;
@@ -190,11 +202,12 @@ footer{
     height: 25px;width: 55px; border-radius: 4px;
     }
     select{
-    width: 15%;
+    width: 14%;
+    margin-left: 10px;
     }
     textarea {
     width: 60%;
-    height: 70px;
+    height: 50px;
     margin-top: 9px;
     border: 0.5px solid rgba(198, 167, 132, 0.441);
     border-radius: 4px;
@@ -206,4 +219,8 @@ footer{
         padding: 0.20%;
         transform: translate(0px,120px);
     }
+}
+
+.select{
+    width: 250px;
 }

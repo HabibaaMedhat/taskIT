@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Personal Course Organizer</title>
+    <title>CoursesVault</title>
 </head>
 <body>
     <header>
@@ -22,6 +22,7 @@
 
     <main>
     <section>
+        <h3>add course</h3>
         <form method="post">
             <label for="course name">course name</label>
             <input type="text" name="course name"> 
@@ -29,12 +30,14 @@
             <label for="lecturer">lecturer</label>
             <input type="text" name="lecturer">
             <br>
-            <label for="number">number of hours</label>
+            <div class="select">
+            <label for="number" id="selectlabel">number of hours</label>
             <select>
                 <option value="">1</option>
                 <option value="">2</option>
                 <option value="">3</option>
             </select>
+            </div>
             <textarea placeholder="Notes"></textarea>
             <br>
             <button type="submit" id="button">Submit</button>
